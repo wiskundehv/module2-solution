@@ -1,37 +1,241 @@
-## Welcome to GitHub Pages
+<html>
 
-You can use the [editor on GitHub](https://github.com/wiskundehv/module2-solution/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1">
+    <title>Solution Responsive Layout week2</title>
+    <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+            font-size: 50px;
+        }
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+        .container1 {
+            margin-top: 50px;
+            margin-right: 5px;
+            position: relative;
 
-### Markdown
+        }
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+        .container2 {
+            margin-top: 50px;
+            margin-right: 5px;
+            position: relative;
+            left: 2px;
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+        }
 
-**Bold** and _Italic_ and `Code` text
+        .container3 {
+            margin-top: 50px;
+            margin-right: 5px;
+            position: relative;
+            left: 4px;
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+        }
 
-### Jekyll Themes
+        .box1 {
+            border: 2px solid black;
+            width: 33%;
+            background: gray;
+            color: ivory;
+            overflow: none;
+            float: left;
+            box-sizing: border-box;
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wiskundehv/module2-solution/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+        }
 
-### Support or Contact
+        .box11 {
+            border: 2px solid red;
+            box-sizing: border-box;
+            background: burlywood;
+            color: black;
+            font-size: 20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            overflow: none;
+            width: 100px;
+            text-align: center;
+            padding: 5px;
+            float: right;
+            margin-top: 0px;
+            position: relative;
+        }
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+        .content1 {
+            position: relative;
+            margin-top: 50px;
+            padding: 5px;
+            font-size: 18px;
+
+        }
+
+        .box2 {
+            border: 2px solid black;
+            width: 33%;
+            background: gray;
+            color: ivory;
+            overflow: none;
+            float: left;
+            box-sizing: border-box;
+
+        }
+
+        .box22 {
+
+            border: 2px solid red;
+            box-sizing: border-box;
+            background: burlywood;
+            color: black;
+            font-size: 20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            overflow: none;
+            width: 100px;
+            text-align: center;
+            padding: 5px;
+            float: right;
+            margin-top: 0px;
+            position: relative;
+        }
+
+        .content2 {
+            position: relative;
+            margin-top: 50px;
+            padding: 5px;
+            font-size: 18px;
+
+        }
+
+        .box3 {
+            border: 2px solid black;
+            width: 33%;
+            background: gray;
+            color: ivory;
+            overflow: none;
+            float: left;
+            box-sizing: border-box;
+
+
+        }
+
+        .box33 {
+
+            border: 2px solid red;
+            box-sizing: border-box;
+            background: burlywood;
+            color: black;
+            font-size: 20px;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            overflow: none;
+            width: 100px;
+            text-align: center;
+            padding: 5px;
+            float: right;
+            margin-top: 0px;
+            position: relative;
+        }
+
+        .content3 {
+            position: relative;
+            margin-top: 50px;
+            padding: 5px;
+            font-size: 18px;
+
+        }
+
+
+        @media(min-width:992px) {
+            .box1 {
+                width: 33%;
+            }
+
+            .box2 {
+                width: 33%;
+
+            }
+
+            .box3 {
+                width: 33%;
+            }
+
+
+        }
+
+
+
+        @media(min-width:768px) and (max-width:991px) {
+            .box1 {
+                width: 50%;
+            }
+
+            .box2 {
+                width: 50%;
+            }
+
+            .box3 {
+                width: 100%;
+                margin-right: 0px;
+                margin-top: 20px;
+            }
+
+
+        }
+
+
+        @media(max-width:767px) {
+            .box1 {
+                width: 100%;
+                margin-top: 20px;
+            }
+
+            .box2 {
+                width: 100%;
+                margin-top: 20px;
+            }
+
+            .box3 {
+                width: 100%;
+                margin-top: 20px;
+                left: 20px;
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1> Our Menu</h1>
+    <div class="container1">
+        <div class="box1">
+            <p class="box11">Chicken</p>
+            <p class="content1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat vitae quisquam quasi
+                soluta sequi illum consectetur, quos id maiores quae explicabo repellat hic asperiores amet dignissimos
+                quia placeat alias consequatur?</p>
+        </div>
+    </div>
+    <div class="container2">
+        <div class="box2">
+            <p class="box22">Beef</p>
+            <p class="content2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo corrupti similique atque
+                suscipit sunt assumenda laudantium temporibus ad eum at odio nemo earum tempora illum, consequuntur
+                harum ipsa quos aliquid?</p>
+
+
+        </div>
+    </div>
+
+    <div class="container3">
+        <div class="box3">
+            <p class="box33">Sushi</p>
+            <p class="content3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Quae officia animi velit necessitatibus dicta est cumque placeat eaque vitae, hic provident expedita
+                dolor, nobis aliquid autem aliquam voluptates accusamus eum.</p>
+        </div>
+    </div>
+</body>
+
+</html>
